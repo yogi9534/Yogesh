@@ -1,8 +1,8 @@
-interface Abcd {
+interface Pqrs {
 	void myInterface();
 }
 
-class PQR implements Abcd{
+class ABC implements Pqrs{
      public void myInterface(){
     	 System.out.println("inside ABC.. .methode definition...");
      }
@@ -10,7 +10,7 @@ class PQR implements Abcd{
 
 public class Interface{
 	public static void main(String args[]) {
-		Abcd intr = new PQR();
+		Pqrs intr = new ABC();
 		intr.myInterface();
 	}
 }
